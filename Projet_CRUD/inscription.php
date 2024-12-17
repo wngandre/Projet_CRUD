@@ -79,10 +79,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <input type="password" id="password" name="password" class="form-control" required>
               </div>
               <div class="mb-3">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="admin" name="admin" value="1">
-                  <label class="form-check-label" for="admin">Admin</label>
-                </div>
               </div>
               <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
               <h6 class="text-center mt-4">Vous avez déjà un compte ?</h6>
